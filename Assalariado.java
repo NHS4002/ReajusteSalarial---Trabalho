@@ -1,14 +1,14 @@
 package ReajusteTrabalho;
 
 public class Assalariado extends Funcionarios.Empregado {
-    private double salarioSemanal;
+    private double salarioBase;
 
-    public Assalariado(double salarioSemanal) {
-        this.salarioSemanal = salarioSemanal;
+    public Assalariado(double salarioBase) {
+        this.salarioBase = salarioBase;
     }
 
     @Override
     public double calcularSalario() {
-        return salarioSemanal;
+        return salarioBase;
     }
 }
